@@ -24,7 +24,7 @@ export const App = () => {
         <h1 className="heading">{frase.quote}</h1>
         <h4 className="author">{frase.from}</h4>
         <button className="button" onClick={getRandomQuote}>
-          <span>Generate quote</span>
+          <span>Generar nueva frase</span>
         </button>
       </div>
     </div>
